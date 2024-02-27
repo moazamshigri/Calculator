@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap');
+*{
+    font-family: Signika;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.calculator {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    width: 33%;
+}
+.but{
+    outline: none;
+    cursor: pointer;
+    cursor: pointer;
+    height: 54px;
+    margin: 2px;
+    width: 23%;
+}
+.operators, .operatorss{
+    outline: none;
+    cursor: pointer;
+    cursor: pointer;
+    height: 54px;
+    margin: 2px;
+    width: 23%;
+}
+
+
+.output{
+    /* border: 1px solid; */
+    /* border-radius: 7px; */
+    width: 78%;
+    overflow: hidden;
+    /* padding-left: 15px; */
+}
+.result{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.reset{
+    width: 23%;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    height: 57px;
+    right: 2.5%;
+}
+.rows{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#but0{
+    width: 47%;
+}
+.inside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.text{
+    height: 51px;
+    font-size: 18px;
+    width: 89%;
+    position: relative;
+    left: 3.5%;
+    outline: none;
+    font-weight: bold;
+}
+.center{
+    text-align: center;
+    margin: 25px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 33px;
+    font-family: Signika;
+}
