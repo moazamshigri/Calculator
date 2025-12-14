@@ -1,62 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Calculator</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-    <div class="center">Calculator</div>
-    <div class="calculator">
-        <div class="result">
-            <div class="inside">
-                <div class="output">
-                    <input type="text"  readonly class="text">
-                </div><button class="reset">AC</button>
-            </div>
-        </div>
-
-        <div class="buttons">
-            <div class="number">
-                <div class="firstrow rows">
-                    <button class="but"  id="but7" value="7">7</button>
-                    <button class="but"  id="but8" value="8">8</button>
-                    <button class="but"  id="but9" value="9">9</button>
-
-
-                    <button class="operators"  id="plus" value="+">+</button>
-                </div>
-                <div class="secondrow rows">
-                    <button class="but"  id="but4" value="4">4</button>
-                    <button class="but"  id="but5" value="5">5</button>
-                    <button class="but"  id="but6" value="6">6</button> <button class="operators"  id="minus" value="-">-</button>
-                </div>
-                <div class="thirdrow rows">
-                    <button class="but"  id="but1" value="1">1</button>
-                    <button class="but"  id="but2" value="2">2</button>
-                    <button class="but"  id="but3" value="3">3</button>
-
-
-
-
-
-                    <button class="operators"  id="multiply" value="*">x</button>
-
-                </div>
-                <div class="lastrow rows"><button class="but" id="but0"  value="0">0</button><button class="operators" 
-                        id="divide" value="/">/</button>
-                    <button id="equal" class="operatorss" onclick="calculate()" value="=">=</button>
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-
-    <script src="app.js"></script>
-</body>
-
+  <head>
+    <meta charset="UTF-8" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
